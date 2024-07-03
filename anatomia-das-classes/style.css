@@ -1,13 +1,17 @@
 h1{
-    color:rgb(151, 119, 15);
+    background: linear-gradient(to left, rgb(85, 11, 57), rgb(177, 94, 0));
+    background-clip: text;
+    color: transparent;
     text-align: center;
-    text-shadow: 18px 5px rgb(252, 252, 252);
-    font-size: 25px;
-}
-meta{
-    color: black;
-}rgb(69, 83, 79)
+    
 
+    font-size: 25px;
+
+}
+main{}
 body{
-    background-color: blue
+    background-color: bisque;
+}
+hr{
+    
 }
