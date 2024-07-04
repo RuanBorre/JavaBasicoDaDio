@@ -1,5 +1,5 @@
 h1{
-    background: linear-gradient(to left, rgb(85, 11, 57), rgb(177, 94, 0));
+    background: linear-gradient(to left,#87a068,#7a9682,#757e49);
     background-clip: text;
     color: transparent;
     text-align: center;
@@ -8,10 +8,13 @@ h1{
     font-size: 25px;
 
 }
-main{}
-body{
-    background-color: bisque;
+main{
+
 }
-hr{
-    
+body{
+    background-color: #A44A3F;
+}
+ 
+p{
+    color: rgb(0, 0, 0);
 }
