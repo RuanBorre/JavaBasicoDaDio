@@ -12,7 +12,7 @@
 
     
 
-<h2></h2>
+
 <hr>
        <main>
            <p>A escrita de codigos de um programa é feita atraves da cmposição de palavras pé-definidas pela linguagem com as expressões que utilizamos pra determinar o nome do nossos arquivos para determinar o nome dos nossos arquivos, classes, atributos e métodos </p>
@@ -27,17 +27,18 @@
            <li> Arquivo: futebolbrasileiro <br>
            Classe: FutebolBrasileiro</li>
        </ul>
-
-
-
-       <hr>
+    
        <h1>Anatomia do código</h1>
-    <br>
-        public class MinhaClasse {<br>
-           <br> public static void main(String[] args)
-           throws Exception {
-               <br> System.out.println("Hello, World!") <br> }  
-       <br> }
+    
+       <main>
+        
+        <br>
+            public class MinhaClasse {<br>
+               <br> public static void main(String[] args)
+               throws Exception {
+                   <br> System.out.println("Hello, World!") <br> }
+           <br> }
+    </main>
         
   <p>Toda classe começará com letra maiúscula, juntamente com seu sucessores. Podemos abservar no código acima</p>
 
@@ -47,28 +48,117 @@
     <p>args: argumentos ou parametros</p>
     <p>System.out.print("") : imprimir um texto</p>
     <p></p>
+  
+   <hr>
+<h2>Anatomia de Classes - 2</h2>
+   
+ <h1>Padrão de Nomenclatura</h1>
 
-    <h2>
-        /*Anotações
-        * Todo arquivo ,java devera começar com letra maiuscula, por exemplo: MinhaClasse.java / Cliente.java /
-        <br>  *
-        <br>  * Caso seja uma palavra composta a segunda palavra tambem devra seguir essa regra.
-        *
-        <br>* A classe devera ter o mesmo nome do arquivo, caso nao seja dara erro de escrita.
-        <br>  *
-        <br> * VARIAVEL deve ser escrita com letra minuscula, mas caso seja composta, a segunda palavra devra ser maiscula.
-        Para criar uma variavel que o valor nao seja alterado use (final), por exemplo:
-        <br>final String BR= "Brasil";<br>
-         <br> String é usado como texto, para que BR receba Brasil.
-         <br>Outro exemplo, uma variavel de ano:
-         <br>esse tipo de variavel pode sofrer alterações, fazemos isso usando int, <br>para especificar que podera ter alteração, fazemos assim:
-         <br>int ano = 2023;
-         <br> ano = 2024;
-    </h2>
-    * 
-   */
-
-
+ <h3>
+    Quando se trata de escrever códigos na linguagem java, é recomendado seguir algumas convenções na escrita. Por exemplo:
+</h3>
      
+          
+         <P>Todo arquivo ,java devera começar com letra maiuscula, por exemplo: <strong>MinhaClasse.java / Cliente.java /</strong></P>
+       
+            <p>
+                Caso seja uma palavra composta a segunda palavra tambem deverá seguir essa regra.
+                 A classe devera ter o mesmo nome do arquivo, caso nao seja dara erro de escrita.
+            </p>
+            
+            <h1>VARIAVEL</h1>
+
+            <p>
+                toda variavel deve ser escrita com letra minuscula, mas caso seja composta, a segunda palavra devra ser maiscula.
+               
+            </p>
+             
+          <h3>Para criar uma variavel que não seja alterada, usamos final, por exemplo:</h3>
+       <p>Uma variavel chamada BR</p>
+       <p>final string BR = "Brasil"</p>
+        <p>Casos que a variavel não seja alterada, por exemplo: Valor de PI, quantidade de estados, 1x7 da copa.</p>
+       <h3>Em outros casos como em datas, que muita das vezes o valor precise ser alterados, usamos int.</h3>
+       <p>int  ano = 2023</p>
+       <p>ano = 2024</p>
+
+       <h1>Regras de Declaração de uma variavel</h1>
+       
+    <ul>
+       <li>Deve conter apenas letras, _ , $ ou números de 0 a 9</li>
+       <li>Deve iniciar com uma letra maiúscula</li>
+       <li>Não pode iniciar com numeros, de preferencia que comece com letras.</li>
+       <li>Não pode conter espaço</li>
+       <li>Não pode usar palavras chaves da linguagem</li>
+       <li>O nome deve ser único dentro do escopo</li>
+    </ul>
+
+    <h1>Declarações inválidas de variaveis</h1>
+
+    <ul>
+    <li> int numero$um = 1; //$ não é permitido</li>
+    <li>int 1numero = 1 ; //Uma variável não deve começar com números/li>
+    <li>int numero um = 1: //Uma variável não pode conter espaço</li>
+    <li>int long = 1; //não pode conter palavras reservadas (long)</li></ul>
+
+<h1>Declarações válidas de variáveis</h1>
+<ul>
+    <li>int numero$um = 1;</li>
+    <li>int numero1 = 1;</li>
+    <li>int numeroum = 1;</li>
+    <li>int longo = 1;</li>
+</ul>
+<hr>
+<h2>Anatomia de Classes - 3</h2>
+
+<h1>Declaração de variáveis e Métodos.</h1>
+<p>toda variavel em java tera a necessidade de dizer o tipo e ter um nome definido</p>
+
+<ul>Por exemplo:
+    <li>int idade = 19;</li>
+    <li>double altura = 1.66</li>
+    <li>dog nala; // A variavel nala não tem valor.</li>
+    <li>String nomeDoCurso = "JavabootCamp"</li>
+    <li> int dataDoCurso = 2024;</li>
+    <li>dataDoCurso = 2025;</li>
+    <li>//  boolean Representação de valor lógico, verdadeira ou falsa</li>
+    <li> boolean verdadeira = true;</li>
+</ul>
+
+<h1>Declaração de Métodos</h1>
+
+<h2>A declaração de métodos em java segue uma estrutura bem simples</h2>
+
+<p>//Estrutura</p>
+
+<p>TipoDeRetorno NomeObjetivoInfinitivo Parametros(s)</p>
+
+<p>Exemplo: (Método de somar)</p>
+
+<p><strong>int  </strong>somar (<strong>int</strong> numeroUm, <strong>int</strong> numero2)</p>
+
+<p><strong>String</strong> formatarCep ( <strong>long</strong> cep <strong>)</p>
+
+<main>
+    <br>public class MinhaClasse {<br>
+        <br>public static void main (String []args){
+            <br>  String primeiroNome = "Ruan";
+            <br>  String segundoNome = "Borré";
+            <br> String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+            <br>
+            <br>System.out.println(nomeCompleto);
+    
+            <br> }
+            <br>public static String nomeCompleto (String primeiroNome, String <br>segundoNome){
+                <br>return "Resultado do Método:" + primeiroNome.concat(" ").concat(segundoNome);
+                <br> }
+   <br> }
+</main>
+<hr>
+<h2>Anatomia de classes - 4</h2>
+<h1>Identação</h1>
+<h3>Indentação basicamente é uma termo de escrever o código para que possamos ter uma visualização e do entendimento do programa.</h3>
+
+<img src="src/download (1).jpeg" alt="Indentação, imagem de exemplo" width="800">
+
 </body>
 </html>
