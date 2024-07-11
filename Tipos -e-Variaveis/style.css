@@ -1,0 +1,20 @@
+h1{
+    background: linear-gradient(to left,#a75f01,#9e6907,#fd8a05);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    
+
+    font-size: 25px;
+
+}
+main{
+ background-color: rgba(245, 154, 50, 0.753);
+}
+body{
+    background-color: #ffffff;
+}
+ 
+p{
+    color: rgb(0, 0, 0);
+}

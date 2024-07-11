@@ -1,6 +1,6 @@
 public class Boletimestudantil {
     public static void main(String[] args) {
-        int mediaFinal = 10;
+        int mediaFinal = 9;
         if(mediaFinal<6)
             System.out.println("REPROVADO");
         else if(mediaFinal==6)
